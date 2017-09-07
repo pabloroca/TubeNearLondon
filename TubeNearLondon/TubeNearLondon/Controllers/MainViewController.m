@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  MainViewController.m
 //  TubeNearLondon
 //
 //  Created by Pablo Roca Rozas on 7/9/17.
 //  Copyright © 2017 PR2Studio. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MainViewController.h"
 
-@interface ViewController ()
+@interface MainViewController ()
 
 @end
 
-@implementation ViewController
+@implementation MainViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
