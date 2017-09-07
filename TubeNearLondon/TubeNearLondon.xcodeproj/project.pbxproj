@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4D900CF0FCD61EF36AAF8BA3 /* libPods-TubeNearLondonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69359172B7799C4D4FBA4231 /* libPods-TubeNearLondonTests.a */; };
+		6D0BD07F1F61F1FA0096896F /* Stations.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0BD07E1F61F1FA0096896F /* Stations.m */; };
+		6D0BD0821F61F8AF0096896F /* Arrivals.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0BD0811F61F8AF0096896F /* Arrivals.m */; };
 		6DA7C89E1F61E5CD00067943 /* TubeNearLondonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA7C89D1F61E5CD00067943 /* TubeNearLondonTests.m */; };
 		6DA7C8AD1F61E73600067943 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA7C8AA1F61E73600067943 /* AppDelegate.m */; };
 		6DA7C8AF1F61E73600067943 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA7C8AC1F61E73600067943 /* main.m */; };
@@ -32,6 +34,10 @@
 		294CCC3738773B62C1B78D09 /* Pods-TubeNearLondon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TubeNearLondon.release.xcconfig"; path = "Pods/Target Support Files/Pods-TubeNearLondon/Pods-TubeNearLondon.release.xcconfig"; sourceTree = "<group>"; };
 		5208DD65067839B581F37855 /* libPods-TubeNearLondon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TubeNearLondon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69359172B7799C4D4FBA4231 /* libPods-TubeNearLondonTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TubeNearLondonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D0BD07D1F61F1FA0096896F /* Stations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stations.h; sourceTree = "<group>"; };
+		6D0BD07E1F61F1FA0096896F /* Stations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stations.m; sourceTree = "<group>"; };
+		6D0BD0801F61F8AF0096896F /* Arrivals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arrivals.h; sourceTree = "<group>"; };
+		6D0BD0811F61F8AF0096896F /* Arrivals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Arrivals.m; sourceTree = "<group>"; };
 		6DA7C8801F61E5CD00067943 /* TubeNearLondon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TubeNearLondon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DA7C8991F61E5CD00067943 /* TubeNearLondonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TubeNearLondonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DA7C89D1F61E5CD00067943 /* TubeNearLondonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TubeNearLondonTests.m; sourceTree = "<group>"; };
@@ -70,6 +76,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D0BD07C1F61F1C80096896F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6D0BD0801F61F8AF0096896F /* Arrivals.h */,
+				6D0BD0811F61F8AF0096896F /* Arrivals.m */,
+				6D0BD07D1F61F1FA0096896F /* Stations.h */,
+				6D0BD07E1F61F1FA0096896F /* Stations.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		6DA7C8771F61E5CD00067943 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +112,7 @@
 			children = (
 				6DA7C8A81F61E73600067943 /* Application */,
 				6DA7C8B01F61EA7800067943 /* Controllers */,
+				6D0BD07C1F61F1C80096896F /* Models */,
 				6DA7C8B41F61EAD500067943 /* Resources */,
 			);
 			path = TubeNearLondon;
@@ -388,7 +406,9 @@
 			files = (
 				6DA7C8AF1F61E73600067943 /* main.m in Sources */,
 				6DA7C8AD1F61E73600067943 /* AppDelegate.m in Sources */,
+				6D0BD07F1F61F1FA0096896F /* Stations.m in Sources */,
 				6DA7C8B31F61EA7800067943 /* MainViewController.m in Sources */,
+				6D0BD0821F61F8AF0096896F /* Arrivals.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
